@@ -1,0 +1,33 @@
+{
+  "name": "skycyc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node shard.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CycPhoenix/SkyCyc.git"
+  },
+  "author": "CycPhoenix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CycPhoenix/SkyCyc/issues"
+  },
+  "homepage": "https://github.com/CycPhoenix/SkyCyc#readme",
+  "dependencies": {
+    "consola": "^2.15.3",
+    "discord.js": "^12.5.3",
+    "fuse.js": "^6.4.6",
+    "node-fetch": "^2.6.1",
+    "quick.db": "^7.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
