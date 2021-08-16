@@ -38,7 +38,7 @@ module.exports = {
                 `${e.loading} Creating missing Hypixel rank roles...`
             ))
 
-        let tocreate = ['verified', 'VIP', 'VIP_PLUS', 'MVP', 'MVP_PLUS', 'SUPERSTAR', 'YOUTUBER', 'GAME MASTER', 'ADMIN'];
+        let tocreate = ['verified', 'VIP', 'VIP_PLUS', 'MVP', 'MVP_PLUS', 'SUPERSTAR', 'YOUTUBER', 'GAME_MASTER', 'ADMIN'];
 
         tocreate.reverse();
 
