@@ -264,7 +264,7 @@ module.exports = {
         const verifyLinks = db.get(`${guildID}.verify_links`);
         if (verifyLinks !== false)
             successMsg +=
-                `\n\n<:namemc:810626872990892083> [NameMC Profile](https://namemc.com/${info.uuid})\n` +
+                `\n\n<:namemc:876307566441938964> [NameMC Profile](https://namemc.com/${info.uuid})\n` +
                 `📈 [Hypixel Stats](https://plancke.io/hypixel/player/stats/${info.uuid})`;
 
         const successEmbed = new Discord.MessageEmbed()
