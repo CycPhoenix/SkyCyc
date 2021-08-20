@@ -47,9 +47,9 @@ module.exports = {
             }
             if (socialmedia.DISCORD) {
                 if (socialmedia.DISCORD.indexOf('#') > -1) {
-                    socialmediastr += `<:discord:876309692329103411> **[Discord](${socialmedia.DISCORD})**\n`
-                } else {
                     socialmediastr += `<:discord:876309692329103411> **Discord:** ${socialmedia.DISCORD}\n`
+                } else {
+                    socialmediastr += `<:discord:876309692329103411> **[Discord](${socialmedia.DISCORD})**\n`
                 }
             }
             if (socialmedia.TWITTER) {
